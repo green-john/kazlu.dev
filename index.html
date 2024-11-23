@@ -29,12 +29,12 @@
 	</style>
 
 	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- <script src="/assets/tailwind.js"></script> -->
 </head>
 
 <body class="p-1 bg-zinc-200 dark:bg-zinc-800 md:max-w-2xl md:mx-auto">
 	<div class="mx-2">
-		<h1 class="text-2xl font-bold text-zinc-700 mt-6 dark:text-zinc-200"> <span
-				class="text-pink-400 mr-1 dark:text-cyan-500">#</span> Start Here</h1>
+		<h1 class="titleOne"> <span class="text-pink-400 mr-1 dark:text-cyan-500">#</span> Start Here</h1>
 		<p class="text-zinc-500 mt-2 dark:text-zinc-400">I'm Kazlu. I like writing code. Currently, Elixir,
 			Bitcoin, Nostr and Ecash keep me up at night.</p>
 
@@ -44,32 +44,42 @@
 				<p class="text-zinc-500 dark:text-zinc-300">Nostr Pubkey</p>
 			</div>
 			<div>
-				<p class="pt-1"><a
-						class="text-sky-600 break-all hover:bg-sky-600 hover:text-white dark:text-amber-300 dark:hover:bg-amber-300 dark:hover:text-zinc-800"
+				<p class="pt-1"><a class="nostrLink"
 						href="https://nosta.me/npub1c28y695c8d3t4ke3erep3hvl96clx65n4n06ctnkwwxzku3rntnqs6ukw3">npub1c28y695c8d3t4ke3erep3hvl96clx65n4n06ctnkwwxzku3rntnqs6ukw3</a>
 				</p>
 			</div>
 		</div>
 
-		<h1 class="text-2xl font-bold text-zinc-700 mt-6 dark:text-zinc-200"> <span
-				class="text-pink-400 mr-1 dark:text-cyan-500">#</span> Projects</h1>
+		<h1 class="titleOne"> <span class="text-pink-400 mr-1 dark:text-cyan-500">#</span> Projects</h1>
 		<ul class="list-none text-zinc-500 ml-4 mt-1">
 			<li class="before:content-['›'] before:text-pink-400 dark:before:text-cyan-500">
-				<a class="text-sky-600 hover:bg-sky-600 hover:text-white py-1 px-2 rounded-md dark:text-amber-300 dark:hover:bg-amber-300 dark:hover:text-zinc-800"
-					href="https://github.com/jurraca/cashulib">Cashulib</a>
+				<a class="linkPrimary" href="https://github.com/jurraca/cashulib">Cashulib</a>
 			</li>
 		</ul>
 
-		<h1 class="text-2xl font-bold text-zinc-700 mt-6 dark:text-zinc-200"> <span
-				class="text-pink-400 mr-1 dark:text-cyan-500">#</span> Misc</h1>
+		<h1 class="titleOne"> <span class="text-pink-400 mr-1 dark:text-cyan-500">#</span> Misc</h1>
 		<ul class="list-none text-zinc-500 ml-4 mt-1">
 			<li class="before:content-['›'] before:text-pink-400 dark:before:text-cyan-500">
-				<a class="text-sky-600 hover:bg-sky-600 hover:text-white py-1 px-2 rounded-md dark:text-amber-300 dark:hover:bg-amber-300 dark:hover:text-zinc-800"
+				<a class="linkPrimary"
 					href="https://zap.stream/npub1c28y695c8d3t4ke3erep3hvl96clx65n4n06ctnkwwxzku3rntnqs6ukw3">Stream</a>
 			</li>
 
+			<li class="before:content-['›'] before:text-pink-400 dark:before:text-cyan-500">
+				<a class="linkPrimary"
+					href="https://zap.stream/npub1c28y695c8d3t4ke3erep3hvl96clx65n4n06ctnkwwxzku3rntnqs6ukw3">Elixir Course</a>
+			</li>
+
 		</ul>
+
+		<h1 class="titleOne"> <span class="text-pink-400 mr-1 dark:text-cyan-500">#</span> Contact</h1>
+
+		<p class="mt-2 text-zinc-500 dark:text-zinc-400">Check me out on <a class="linkInText" href="https://github.com/kazluu">Github</a> or
+			send an email to <a class="linkInText" href="emailto:kazlu@protonmail.com">kazlu@protonmail.com</a> </p>
+
+
 	</div>
+
+	<script src="/assets/styles.js"></script>
 </body>
 
 </html>
